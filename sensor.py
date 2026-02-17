@@ -27,6 +27,7 @@ SENSOR_TYPES = [
     ("Total Power", 12, UnitOfPower.WATT, SensorDeviceClass.POWER, 1),
     ("EQ Single", 13, UnitOfEnergy.KILO_WATT_HOUR, SensorDeviceClass.ENERGY, 0.1),
     ("EQ Total", 15, UnitOfEnergy.KILO_WATT_HOUR, SensorDeviceClass.ENERGY, 0.1),
+    ("Temperature Plug", 23, UnitOfTemperature.CELSIUS, SensorDeviceClass.TEMPERATURE, 1),
     ("Temperature PCB", 24, UnitOfTemperature.CELSIUS, SensorDeviceClass.TEMPERATURE, 1),
 ]
 
