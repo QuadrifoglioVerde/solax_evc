@@ -12,4 +12,4 @@ Local API Polling of Solax EV Charger
 sensor:
   - platform: solax_evc
     host: "192.168.0.106"     # Local IP addres of charger
-    password: "HESLO"         # Password (use QR code on charger sticker)
+    password: "PASSWORD"      # Password (use QR code on charger sticker)
