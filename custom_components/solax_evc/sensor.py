@@ -95,7 +95,7 @@ class SolaxEVCSensor(SensorEntity):
         
         val = raw_data[self._index]
         if self._factor == "STATE":
-            return {0:"Preparing", 1:"Preparing", 2:"Charging", 3:"Finishing", 4:"Faulted"}.get(val, f"Status {val}")
+            return {0:"Idle", 1:"Preparing", 2:"Charging", 3:"Finishing", 4:"Faulted"}.get(val, f"Status {val}")
         if self._factor == "MODE":
             return {0:"STOP", 1:"FAST", 2:"ECO", 3:"GREEN"}.get(val, "Unknown")
         
